@@ -26,7 +26,7 @@
 - [z-paging下拉刷新、上拉加载](https://ext.dcloud.net.cn/plugin?id=3935)
 
 ### 项目模板
-- [mix-mall 电商项目模版]((https://ext.dcloud.net.cn/plugin?id=200)
+- [mix-mall 电商项目模版](https://ext.dcloud.net.cn/plugin?id=200)
 - [uni-admin 基础框架](https://ext.dcloud.net.cn/plugin?id=3268)
 - [网赚游戏](https://ext.dcloud.net.cn/plugin?id=4095)
 - [登录界面模板库](https://ext.dcloud.net.cn/plugin?id=8937)
