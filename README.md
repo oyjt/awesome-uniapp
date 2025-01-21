@@ -10,7 +10,10 @@
 - [ColorUI](https://ext.dcloud.net.cn/plugin?id=239)
 - [uView2.0](https://ext.dcloud.net.cn/plugin?id=1593)
 - [uv-ui](https://ext.dcloud.net.cn/plugin?id=12287)
-- [uview-plus3.0](https://ext.dcloud.net.cn/plugin?id=8744)
+- [uview-plus](https://ext.dcloud.net.cn/plugin?id=8744)
+- [Wot Design Uni]([https://wot-design-uni.netlify.app/](https://ext.dcloud.net.cn/plugin?id=13889))
+- [tuniao-ui](https://ext.dcloud.net.cn/plugin?id=7088)
+
 
 ### 功能组件
 - [海报画版](https://ext.dcloud.net.cn/plugin?id=23890)
