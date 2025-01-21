@@ -41,3 +41,8 @@
 - [网赚游戏](https://ext.dcloud.net.cn/plugin?id=4095)
 - [登录界面模板库](https://ext.dcloud.net.cn/plugin?id=8937)
 - [前端铺子（小程序+H5+公众号+App）多种移动端开发实用模版、功能、样式](https://ext.dcloud.net.cn/plugin?id=5013)
+
+### VSCode 插件推荐
+- 可以为pages.json、manifest.json等提供语法提示和校验工作。[uni-app-schemas](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-app-schemas-vscode)
+- uni-app 基本能力代码片段。[uni-app-snippets](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-app-snippets-vscode)
+- 一键创建页面、组件、分包。[uni-create-view](https://marketplace.visualstudio.com/items?itemName=mrmaoddxxaa.create-uniapp-view)
