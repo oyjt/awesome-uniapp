@@ -7,12 +7,14 @@
 ### UI框架
 
 - [uni-ui](https://ext.dcloud.net.cn/plugin?id=55)
-- [ColorUI](https://ext.dcloud.net.cn/plugin?id=239)
+- [color-ui](https://ext.dcloud.net.cn/plugin?id=239)
 - [uView2.0](https://ext.dcloud.net.cn/plugin?id=1593)
 - [uv-ui](https://ext.dcloud.net.cn/plugin?id=12287)
 - [uview-plus](https://ext.dcloud.net.cn/plugin?id=8744)
-- [Wot Design Uni](https://ext.dcloud.net.cn/plugin?id=13889)
+- [uview-next](https://ext.dcloud.net.cn/plugin?id=24021)
+- [wot-ui](https://ext.dcloud.net.cn/plugin?id=13889)
 - [tuniao-ui](https://ext.dcloud.net.cn/plugin?id=7088)
+- [sard-uniapp](https://ext.dcloud.net.cn/plugin?id=16001)
 
 
 ### 功能组件
