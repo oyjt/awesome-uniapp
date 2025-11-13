@@ -15,12 +15,13 @@
 - [wot-ui](https://ext.dcloud.net.cn/plugin?id=13889)
 - [tuniao-ui](https://ext.dcloud.net.cn/plugin?id=7088)
 - [sard-uniapp](https://ext.dcloud.net.cn/plugin?id=16001)
+- [tdesign-uniapp](https://ext.dcloud.net.cn/plugin?id=25431)
 
 
 ### 功能组件
 - [海报画版](https://ext.dcloud.net.cn/plugin?id=23890)
 - [ucharts图表](https://ext.dcloud.net.cn/plugin?id=271)
-- [echarts](https://ext.dcloud.net.cn/plugin?id=4899)
+- [echarts图表](https://ext.dcloud.net.cn/plugin?id=4899)
 - [lucky-canvas【大转盘｜九宫格｜老虎机】抽奖插件](https://ext.dcloud.net.cn/plugin?id=3499)
 - [手写板-签名签字](https://ext.dcloud.net.cn/plugin?id=4354)
 - [瀑布流布局-waterfall](https://ext.dcloud.net.cn/plugin?id=5280)
