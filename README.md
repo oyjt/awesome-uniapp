@@ -48,6 +48,11 @@
 - [登录界面模板库](https://ext.dcloud.net.cn/plugin?id=8937)
 - [前端铺子（小程序+H5+公众号+App）多种移动端开发实用模版、功能、样式](https://ext.dcloud.net.cn/plugin?id=5013)
 
+
+
+### AI 开发工具 / 设计稿转代码
+
+- [sketch-to-vue](https://github.com/chenboxun87/sketch-to-vue) - 将 Sketch MeaXure / MasterGo 设计稿转为像素级精准的 UniApp SFC 组件（支持 H5 / 微信小程序 / App），自动完成 rpx 换算、lime-echart 图表集成、assets 路径解析。支持 Vue 2/3、React 18 多目标输出。
 ### VSCode 插件推荐
 - 可以为pages.json、manifest.json等提供语法提示和校验工作。[uni-app-schemas](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-app-schemas-vscode)
 - uni-app 基本能力代码片段。[uni-app-snippets](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-app-snippets-vscode)
