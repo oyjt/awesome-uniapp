@@ -2,75 +2,469 @@
 
 收集 uni-app 开发中常用、体验优秀的组件、插件、UI 框架和项目模板。条目综合插件市场的下载、收藏、更新和评价等信息筛选而来。
 
-> 除 VSCode 插件外，所有条目均附有官方简介；插件市场提供预览图时，展示其首张预览图。标题下方的“适用”标签提炼自官方简介，并以 Shields 徽章展示，便于快速选型。每项均提供醒目的“查看详情 →”链接，名称和图片同样可点击。
+> 除 VSCode 插件外，所有条目均附有官方简介；插件市场提供预览图时，展示其首张预览图。标题下方的“适用”标签提炼自官方简介，并以 Shields 徽章展示，便于快速选型。标题后的 ↗ 表示可跳转至插件详情页，图片同样可点击。
 >
-> ![多端](https://img.shields.io/badge/%E5%A4%9A%E7%AB%AF-4C6EF5?style=flat-square "多端") 等徽章表示条目的运行环境、技术栈或功能场景。
+> ![多端](https://img.shields.io/badge/%E5%A4%9A%E7%AB%AF-2B9939?style=flat-square "多端") 等徽章表示条目的运行环境、技术栈或功能场景。
+
+## 收录说明
+
+- 优先收录 uni-app 生态中常用、维护活跃且使用体验良好的组件、插件、UI 框架与项目模板。
+- 简介、适用标签和预览图均以对应插件页为准；缺少预览图的条目不展示图片。
+- 最近整理：2026-09-12。插件市场内容可能发生更新，欢迎通过 [Issue](https://github.com/oyjt/awesome-uniapp/issues) 反馈失效链接或推荐条目。
 
 ## 目录
 
+- [收录说明](#收录说明)
+- [快速选型](#快速选型)
 - [UI 框架（10）](#ui-框架10)
 - [功能组件（21）](#功能组件21)
 - [项目模板（6）](#项目模板6)
-- [VSCode 插件推荐](#vscode-插件推荐)
+- [VSCode 插件推荐（3）](#vscode-插件推荐3)
+
+## 快速选型
+
+- [Vue 3 / 多端 UI 组件库](#ui-框架10)
+- [图表、请求与列表加载](#数据与网络)
+- [页面效果与用户交互](#页面与交互)
+- [富内容、文件与图片处理](#内容与媒体)
+- [后台管理、电商与业务模板](#项目模板6)
 
 ## UI 框架（10）
 
 <table>
-  <tr><td width="112" align="center"><a href="https://ext.dcloud.net.cn/plugin?id=55"><img src="assets/screenshots/55.webp" alt="uni-ui 预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=55">uni-ui</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/%E5%A4%9A%E7%AB%AF-4C6EF5?style=flat-square" alt="多端" height="18"> <img src="https://img.shields.io/badge/UI%20%E7%BB%84%E4%BB%B6-4C6EF5?style=flat-square" alt="UI 组件" height="18"><br>基于 uni-app 的全端兼容、高性能 UI 框架。<br><a href="https://ext.dcloud.net.cn/plugin?id=55">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=239"><img src="assets/screenshots/239-thumb.png" alt="ColorUI-UniApp 预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=239">color-ui</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/%E5%A4%9A%E7%AB%AF-4C6EF5?style=flat-square" alt="多端" height="18"> <img src="https://img.shields.io/badge/CSS%20%E6%A0%B7%E5%BC%8F%E5%BA%93-4C6EF5?style=flat-square" alt="CSS 样式库" height="18"><br>适用于 H5、微信小程序、Android、iOS 和支付宝的高颜值、高度可自定义 CSS 组件库。<br><a href="https://ext.dcloud.net.cn/plugin?id=239">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=1593"><img src="assets/screenshots/1593.webp" alt="uView2.0 预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=1593">uView2.0</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/nvue-4C6EF5?style=flat-square" alt="nvue" height="18"> <img src="https://img.shields.io/badge/UI%20%E7%BB%84%E4%BB%B6-4C6EF5?style=flat-square" alt="UI 组件" height="18"><br>兼容 nvue，提供全面组件和便捷工具。<br><a href="https://ext.dcloud.net.cn/plugin?id=1593">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=12287"><img src="assets/screenshots/12287.webp" alt="uv-ui 预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=12287">uv-ui</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/%E5%A4%9A%E7%AB%AF-4C6EF5?style=flat-square" alt="多端" height="18"> <img src="https://img.shields.io/badge/UI%20%E7%BB%84%E4%BB%B6-4C6EF5?style=flat-square" alt="UI 组件" height="18"><br>基于 uni-app、部分组件基于 uView2.x 的全端兼容 UI 框架，支持独立导入。<br><a href="https://ext.dcloud.net.cn/plugin?id=12287">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=8744"><img src="assets/screenshots/8744.webp" alt="uview-plus 预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=8744">uview-plus</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/Vue%203-4C6EF5?style=flat-square&amp;logo=vuedotjs&amp;logoColor=white" alt="Vue 3" height="18"> <img src="https://img.shields.io/badge/%E5%A4%9A%E8%AF%AD%E8%A8%80-4C6EF5?style=flat-square" alt="多语言" height="18"><br>兼容 Vue 3 和多语言的移动组件库，提供 120+ 组件及排序、条码、裁剪等能力。<br><a href="https://ext.dcloud.net.cn/plugin?id=8744">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=24021"><img src="assets/screenshots/24021.webp" alt="uView Next 预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=24021">uview-next</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/Vue%202%2F3-4C6EF5?style=flat-square&amp;logo=vuedotjs&amp;logoColor=white" alt="Vue 2/3" height="18"> <img src="https://img.shields.io/badge/%E9%B8%BF%E8%92%99-4C6EF5?style=flat-square" alt="鸿蒙" height="18"><br>基于 uView UI 2.0 的 110+ 高质量组件库，支持 Vue 2、Vue 3、鸿蒙与多语言。<br><a href="https://ext.dcloud.net.cn/plugin?id=24021">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=13889"><img src="assets/screenshots/13889.webp" alt="wot-design-uni 预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=13889">wot-ui</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/Vue%203-4C6EF5?style=flat-square&amp;logo=vuedotjs&amp;logoColor=white" alt="Vue 3" height="18"> <img src="https://img.shields.io/badge/TypeScript-4C6EF5?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" height="18"><br>基于 Vue 3 与 TypeScript 的 uni-app 组件库，提供 70+ 组件并支持暗黑模式、国际化和主题定制。<br><a href="https://ext.dcloud.net.cn/plugin?id=13889">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=7088"><img src="assets/screenshots/7088-thumb.png" alt="图鸟 UI 预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=7088">tuniao-ui</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/%E5%A4%9A%E7%AB%AF-4C6EF5?style=flat-square" alt="多端" height="18"> <img src="https://img.shields.io/badge/%E9%A1%B5%E9%9D%A2%E6%A8%A1%E6%9D%BF-4C6EF5?style=flat-square" alt="页面模板" height="18"><br>基于 uni-app 的 UI 框架，支持 App、H5、微信小程序，并提供组件和页面模板。<br><a href="https://ext.dcloud.net.cn/plugin?id=7088">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=16001"><img src="assets/screenshots/16001.webp" alt="sard-uniapp 预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=16001">sard-uniapp</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/Vue%203-4C6EF5?style=flat-square&amp;logo=vuedotjs&amp;logoColor=white" alt="Vue 3" height="18"> <img src="https://img.shields.io/badge/%E5%A4%9A%E7%AB%AF-4C6EF5?style=flat-square" alt="多端" height="18"><br>一套基于 UniApp 和 Vue 3 开发、兼容多端的 UI 组件库。<br><a href="https://ext.dcloud.net.cn/plugin?id=16001">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=25431"><img src="assets/screenshots/25431.webp" alt="TDesign Uniapp 预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=25431">tdesign-uniapp</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/UI%20%E7%BB%84%E4%BB%B6-4C6EF5?style=flat-square" alt="UI 组件" height="18"><br>TDesign Component for uniapp。<br><a href="https://ext.dcloud.net.cn/plugin?id=25431">查看详情 →</a></td></tr>
+  <tr>
+    <td width="112" align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=55"><img src="assets/screenshots/55.webp" alt="uni-ui 预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=55">uni-ui ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/%E5%A4%9A%E7%AB%AF-2B9939?style=flat-square" alt="多端" height="18">
+      <img src="https://img.shields.io/badge/UI%20%E7%BB%84%E4%BB%B6-2B9939?style=flat-square" alt="UI 组件" height="18"><br>
+      基于 uni-app 的全端兼容、高性能 UI 框架。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=239"><img src="assets/screenshots/239-thumb.png" alt="ColorUI-UniApp 预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=239">color-ui ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/%E5%A4%9A%E7%AB%AF-2B9939?style=flat-square" alt="多端" height="18">
+      <img src="https://img.shields.io/badge/CSS%20%E6%A0%B7%E5%BC%8F%E5%BA%93-2B9939?style=flat-square" alt="CSS 样式库" height="18"><br>
+      适用于 H5、微信小程序、Android、iOS 和支付宝的高颜值、高度可自定义 CSS 组件库。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=1593"><img src="assets/screenshots/1593.webp" alt="uView2.0 预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=1593">uView2.0 ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/nvue-2B9939?style=flat-square" alt="nvue" height="18">
+      <img src="https://img.shields.io/badge/UI%20%E7%BB%84%E4%BB%B6-2B9939?style=flat-square" alt="UI 组件" height="18"><br>
+      兼容 nvue，提供全面组件和便捷工具。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=12287"><img src="assets/screenshots/12287.webp" alt="uv-ui 预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=12287">uv-ui ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/%E5%A4%9A%E7%AB%AF-2B9939?style=flat-square" alt="多端" height="18">
+      <img src="https://img.shields.io/badge/UI%20%E7%BB%84%E4%BB%B6-2B9939?style=flat-square" alt="UI 组件" height="18"><br>
+      基于 uni-app、部分组件基于 uView2.x 的全端兼容 UI 框架，支持独立导入。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=8744"><img src="assets/screenshots/8744.webp" alt="uview-plus 预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=8744">uview-plus ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/Vue%203-2B9939?style=flat-square&amp;logo=vuedotjs&amp;logoColor=white" alt="Vue 3" height="18">
+      <img src="https://img.shields.io/badge/%E5%A4%9A%E8%AF%AD%E8%A8%80-2B9939?style=flat-square" alt="多语言" height="18"><br>
+      兼容 Vue 3 和多语言的移动组件库，提供 120+ 组件及排序、条码、裁剪等能力。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=24021"><img src="assets/screenshots/24021.webp" alt="uView Next 预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=24021">uview-next ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/Vue%202%2F3-2B9939?style=flat-square&amp;logo=vuedotjs&amp;logoColor=white" alt="Vue 2/3" height="18">
+      <img src="https://img.shields.io/badge/%E9%B8%BF%E8%92%99-2B9939?style=flat-square" alt="鸿蒙" height="18"><br>
+      基于 uView UI 2.0 的 110+ 高质量组件库，支持 Vue 2、Vue 3、鸿蒙与多语言。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=13889"><img src="assets/screenshots/13889.webp" alt="wot-design-uni 预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=13889">wot-ui ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/Vue%203-2B9939?style=flat-square&amp;logo=vuedotjs&amp;logoColor=white" alt="Vue 3" height="18">
+      <img src="https://img.shields.io/badge/TypeScript-2B9939?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" height="18"><br>
+      基于 Vue 3 与 TypeScript 的 uni-app 组件库，提供 70+ 组件并支持暗黑模式、国际化和主题定制。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=7088"><img src="assets/screenshots/7088-thumb.png" alt="图鸟 UI 预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=7088">tuniao-ui ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/%E5%A4%9A%E7%AB%AF-2B9939?style=flat-square" alt="多端" height="18">
+      <img src="https://img.shields.io/badge/%E9%A1%B5%E9%9D%A2%E6%A8%A1%E6%9D%BF-2B9939?style=flat-square" alt="页面模板" height="18"><br>
+      基于 uni-app 的 UI 框架，支持 App、H5、微信小程序，并提供组件和页面模板。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=16001"><img src="assets/screenshots/16001.webp" alt="sard-uniapp 预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=16001">sard-uniapp ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/Vue%203-2B9939?style=flat-square&amp;logo=vuedotjs&amp;logoColor=white" alt="Vue 3" height="18">
+      <img src="https://img.shields.io/badge/%E5%A4%9A%E7%AB%AF-2B9939?style=flat-square" alt="多端" height="18"><br>
+      一套基于 UniApp 和 Vue 3 开发、兼容多端的 UI 组件库。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=25431"><img src="assets/screenshots/25431.webp" alt="TDesign Uniapp 预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=25431">tdesign-uniapp ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/UI%20%E7%BB%84%E4%BB%B6-2B9939?style=flat-square" alt="UI 组件" height="18"><br>
+      TDesign Component for uniapp。<br>
+    </td>
+  </tr>
 </table>
 
 ## 功能组件（21）
 
 <p>按开发任务分组，方便从场景开始筛选。</p>
+
+### 数据与网络
+
+图表、请求与列表加载
+
 <table>
-  <tr><td colspan="2"><strong>数据与网络</strong><br><small>图表、请求与列表加载</small></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=271"><img src="assets/screenshots/271-thumb.png" alt="uCharts 预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=271">ucharts 图表</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/%E5%9B%BE%E8%A1%A8-4C6EF5?style=flat-square" alt="图表" height="18"> <img src="https://img.shields.io/badge/H5%2FApp-4C6EF5?style=flat-square&amp;logo=html5&amp;logoColor=white" alt="H5/App" height="18"><br>支持在 H5 和 App 以 uCharts、ECharts 渲染图表的跨端可视化组件。<br><a href="https://ext.dcloud.net.cn/plugin?id=271">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=4899"><img src="assets/screenshots/4899.webp" alt="lime-echart 预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=4899">echarts 图表</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/ECharts-4C6EF5?style=flat-square&amp;logo=apacheecharts&amp;logoColor=white" alt="ECharts" height="18"> <img src="https://img.shields.io/badge/%E5%A4%9A%E7%AB%AF%E5%9B%BE%E8%A1%A8-4C6EF5?style=flat-square" alt="多端图表" height="18"><br>为 UniApp 提供 ECharts 兼容支持，让图表可运行于 H5、小程序和 App。<br><a href="https://ext.dcloud.net.cn/plugin?id=4899">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=343"><img src="assets/screenshots/343-thumb.png" alt="mescroll 预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=343">高性能下拉刷新上拉加载</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/%E4%B8%8B%E6%8B%89%E5%88%B7%E6%96%B0-4C6EF5?style=flat-square" alt="下拉刷新" height="18"> <img src="https://img.shields.io/badge/Vue%203-4C6EF5?style=flat-square&amp;logo=vuedotjs&amp;logoColor=white" alt="Vue 3" height="18"><br>通过 wxs 与 renderjs 实现，支持原生页面、局部滚动及 Vue 3 script setup。<br><a href="https://ext.dcloud.net.cn/plugin?id=343">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=3935"><img src="assets/screenshots/3935-thumb.png" alt="z-paging 预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=3935">z-paging 下拉刷新、上拉加载</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/%E5%88%86%E9%A1%B5-4C6EF5?style=flat-square" alt="分页" height="18"> <img src="https://img.shields.io/badge/%E8%99%9A%E6%8B%9F%E5%88%97%E8%A1%A8-4C6EF5?style=flat-square" alt="虚拟列表" height="18"><br>低耦合的全平台分页组件，支持下拉刷新、加载更多、虚拟列表和聊天分页等配置。<br><a href="https://ext.dcloud.net.cn/plugin?id=3935">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=392"><img src="assets/screenshots/392.webp" alt="luch-request 预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=392">luch-request 网络请求库</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/%E7%BD%91%E7%BB%9C%E8%AF%B7%E6%B1%82-4C6EF5?style=flat-square" alt="网络请求" height="18"> <img src="https://img.shields.io/badge/TypeScript-4C6EF5?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" height="18"><br>基于 Promise 的跨平台、项目级请求库，面向传统 uni-app 的 TypeScript-first 请求库。<br><a href="https://ext.dcloud.net.cn/plugin?id=392">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=7511"><img src="assets/screenshots/7511-thumb.png" alt="zb-table 预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=7511">zb-table 多功能表格</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E8%A1%A8%E6%A0%BC-4C6EF5?style=flat-square" alt="数据表格" height="18"> <img src="https://img.shields.io/badge/%E5%9B%BA%E5%AE%9A%E5%88%97-4C6EF5?style=flat-square" alt="固定列" height="18"><br>支持固定表头和列、加载、排序、多选、编辑与合计的多功能跨端表格组件。<br><a href="https://ext.dcloud.net.cn/plugin?id=7511">查看详情 →</a></td></tr>
-  <tr><td colspan="2"><strong>页面与交互</strong><br><small>页面效果与用户操作</small></td></tr>
-  <tr><td width="112" align="center"><a href="https://ext.dcloud.net.cn/plugin?id=2389"><img src="assets/screenshots/2389.webp" alt="海报画板预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=2389">海报画板</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/Canvas-4C6EF5?style=flat-square&amp;logo=html5&amp;logoColor=white" alt="Canvas" height="18"> <img src="https://img.shields.io/badge/%E5%AF%8C%E6%96%87%E6%9C%AC-4C6EF5?style=flat-square" alt="富文本" height="18"><br>一款 canvas 海报组件，提供更优雅的海报生成方案，有限支持富文本。<br><a href="https://ext.dcloud.net.cn/plugin?id=2389">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=3499"><img src="assets/screenshots/3499.webp" alt="lucky-canvas 预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=3499">lucky-canvas 抽奖插件</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/%E6%8A%BD%E5%A5%96-4C6EF5?style=flat-square" alt="抽奖" height="18"> <img src="https://img.shields.io/badge/%E6%A6%82%E7%8E%87%E6%8E%A7%E5%88%B6-4C6EF5?style=flat-square" alt="概率控制" height="18"><br>可配置奖品、文字、图片、颜色与按钮，支持同步或异步抽奖及前后端概率控制。<br><a href="https://ext.dcloud.net.cn/plugin?id=3499">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=4354"><img src="assets/screenshots/4354.webp" alt="lime-signature 预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=4354">手写板-签名签字</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/%E7%AD%BE%E5%90%8D-4C6EF5?style=flat-square" alt="签名" height="18"> <img src="https://img.shields.io/badge/%E5%9B%BE%E7%89%87%E5%AF%BC%E5%87%BA-4C6EF5?style=flat-square" alt="图片导出" height="18"><br>支持横屏、背景与笔画配置，并可生成有效内容区域以减小图片尺寸。<br><a href="https://ext.dcloud.net.cn/plugin?id=4354">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=5280"><img src="assets/screenshots/5280.webp" alt="瀑布流布局预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=5280">瀑布流布局-waterfall</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/%E7%80%91%E5%B8%83%E6%B5%81-4C6EF5?style=flat-square" alt="瀑布流" height="18"> <img src="https://img.shields.io/badge/%E6%8F%92%E6%A7%BD-4C6EF5?style=flat-square" alt="插槽" height="18"><br>采用组件加插槽方案实现的瀑布流布局组件，便于使用和调整内容。<br><a href="https://ext.dcloud.net.cn/plugin?id=5280">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=13025"><img src="assets/screenshots/13025.webp" alt="仿抖音短视频组件预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=13025">仿抖音短视频组件</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/%E7%9F%AD%E8%A7%86%E9%A2%91-4C6EF5?style=flat-square" alt="短视频" height="18"> <img src="https://img.shields.io/badge/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96-4C6EF5?style=flat-square" alt="性能优化" height="18"><br>全局仅渲染 3 个 item 节点，支持快速滑动、自动预加载和自定义高度。<br><a href="https://ext.dcloud.net.cn/plugin?id=13025">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=1078"><img src="assets/screenshots/1078.webp" alt="下拉式筛选菜单预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=1078">下拉式筛选菜单</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/%E7%AD%9B%E9%80%89%E8%8F%9C%E5%8D%95-4C6EF5?style=flat-square" alt="筛选菜单" height="18"> <img src="https://img.shields.io/badge/%E5%95%86%E5%9F%8E-4C6EF5?style=flat-square" alt="商城" height="18"><br>适用于商城、团购的下拉筛选菜单，最多支持三级子菜单和单选、多选。<br><a href="https://ext.dcloud.net.cn/plugin?id=1078">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=324"><img src="assets/screenshots/324.webp" alt="聊天模板预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=324">聊天模板</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/%E8%81%8A%E5%A4%A9%20UI-4C6EF5?style=flat-square" alt="聊天 UI" height="18"> <img src="https://img.shields.io/badge/%E6%B6%88%E6%81%AF-4C6EF5?style=flat-square" alt="消息" height="18"><br>聊天界面模板，包含文字、语音和红包消息。<br><a href="https://ext.dcloud.net.cn/plugin?id=324">查看详情 →</a></td></tr>
-  <tr><td colspan="2"><strong>内容与媒体</strong><br><small>富内容、文件与图片处理</small></td></tr>
-  <tr><td width="112" align="center">—</td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=23890">图片懒加载、图片缓存</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/%E5%9B%BE%E7%89%87%E4%BC%98%E5%8C%96-4C6EF5?style=flat-square" alt="图片优化" height="18"> <img src="https://img.shields.io/badge/%E7%BC%93%E5%AD%98-4C6EF5?style=flat-square" alt="缓存" height="18"><br>基于 uni-app 的 image 组件封装，提供图片懒加载与缓存，加快二次加载并减少 CDN 流量消耗。<br><a href="https://ext.dcloud.net.cn/plugin?id=23890">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=10415"><img src="assets/screenshots/10415.webp" alt="在线 PDF 播放器预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=10415">在线 PDF 播放器预览</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/PDF-4C6EF5?style=flat-square" alt="PDF" height="18"> <img src="https://img.shields.io/badge/%E5%B7%A5%E5%85%B7%E6%A0%8F-4C6EF5?style=flat-square" alt="工具栏" height="18"><br>PDF 播放组件，支持监听页数和自定义工具栏。<br><a href="https://ext.dcloud.net.cn/plugin?id=10415">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=805"><img src="assets/screenshots/805.webp" alt="mp-html 预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=805">mp-html 富文本组件</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/%E5%AF%8C%E6%96%87%E6%9C%AC-4C6EF5?style=flat-square" alt="富文本" height="18"><br>高效轻量、功能丰富的富文本组件。<br><a href="https://ext.dcloud.net.cn/plugin?id=805">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=12939"><img src="assets/screenshots/12939-thumb.png" alt="qrcode 预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=12939">qrcode 二维码生成</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/%E4%BA%8C%E7%BB%B4%E7%A0%81-4C6EF5?style=flat-square" alt="二维码" height="18"> <img src="https://img.shields.io/badge/uniapp%20x-4C6EF5?style=flat-square" alt="uniapp x" height="18"><br>一款全平台通用的二维码生成插件，支持 uniapp 与 uniappx。<br><a href="https://ext.dcloud.net.cn/plugin?id=12939">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=3594"><img src="assets/screenshots/3594-thumb.png" alt="lime-clipper 预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=3594">图片裁剪</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/%E5%9B%BE%E7%89%87%E8%A3%81%E5%89%AA-4C6EF5?style=flat-square" alt="图片裁剪" height="18"> <img src="https://img.shields.io/badge/uniapp%20x-4C6EF5?style=flat-square" alt="uniapp x" height="18"><br>兼容 uniapp 与 uniappx 的图片裁剪插件。<br><a href="https://ext.dcloud.net.cn/plugin?id=3594">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=8941"><img src="assets/screenshots/8941-thumb.png" alt="上传图片视频预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=8941">上传图片、视频</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/%E4%B8%8A%E4%BC%A0-4C6EF5?style=flat-square" alt="上传" height="18"> <img src="https://img.shields.io/badge/uniCloud-4C6EF5?style=flat-square" alt="uniCloud" height="18"><br>支持图片、视频的手动或自动上传、样式定制、uniCloud 上传、预览和删除。<br><a href="https://ext.dcloud.net.cn/plugin?id=8941">查看详情 →</a></td></tr>
-  <tr><td colspan="2"><strong>样式与体验</strong><br><small>加载反馈与视觉效果</small></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=7339"><img src="assets/screenshots/7339-thumb.gif" alt="zero-loading 预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=7339">zero-loading</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/CSS%20%E5%8A%A8%E7%94%BB-4C6EF5?style=flat-square" alt="CSS 动画" height="18"> <img src="https://img.shields.io/badge/Vue%202%2F3-4C6EF5?style=flat-square&amp;logo=vuedotjs&amp;logoColor=white" alt="Vue 2/3" height="18"><br>纯 CSS 加载动画，一个标签即可实现全屏 loading 效果，支持 Vue 2 和 Vue 3。<br><a href="https://ext.dcloud.net.cn/plugin?id=7339">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=3685"><img src="assets/screenshots/3685-thumb.png" alt="炫酷样式与动画预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=3685">炫酷的样式、炫酷的动画效果</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/%E6%A0%B7%E5%BC%8F-4C6EF5?style=flat-square" alt="样式" height="18"> <img src="https://img.shields.io/badge/%E5%8A%A8%E7%94%BB-4C6EF5?style=flat-square" alt="动画" height="18"><br>收集多种炫酷样式和动画效果，并持续更新。<br><a href="https://ext.dcloud.net.cn/plugin?id=3685">查看详情 →</a></td></tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=271"><img src="assets/screenshots/271-thumb.png" alt="uCharts 预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=271">ucharts 图表 ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/%E5%9B%BE%E8%A1%A8-2B9939?style=flat-square" alt="图表" height="18">
+      <img src="https://img.shields.io/badge/H5%2FApp-2B9939?style=flat-square&amp;logo=html5&amp;logoColor=white" alt="H5/App" height="18"><br>
+      支持在 H5 和 App 以 uCharts、ECharts 渲染图表的跨端可视化组件。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=4899"><img src="assets/screenshots/4899.webp" alt="lime-echart 预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=4899">echarts 图表 ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/ECharts-2B9939?style=flat-square&amp;logo=apacheecharts&amp;logoColor=white" alt="ECharts" height="18">
+      <img src="https://img.shields.io/badge/%E5%A4%9A%E7%AB%AF%E5%9B%BE%E8%A1%A8-2B9939?style=flat-square" alt="多端图表" height="18"><br>
+      为 UniApp 提供 ECharts 兼容支持，让图表可运行于 H5、小程序和 App。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=343"><img src="assets/screenshots/343-thumb.png" alt="mescroll 预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=343">高性能下拉刷新上拉加载 ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/%E4%B8%8B%E6%8B%89%E5%88%B7%E6%96%B0-2B9939?style=flat-square" alt="下拉刷新" height="18">
+      <img src="https://img.shields.io/badge/Vue%203-2B9939?style=flat-square&amp;logo=vuedotjs&amp;logoColor=white" alt="Vue 3" height="18"><br>
+      通过 wxs 与 renderjs 实现，支持原生页面、局部滚动及 Vue 3 script setup。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=3935"><img src="assets/screenshots/3935-thumb.png" alt="z-paging 预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=3935">z-paging 下拉刷新、上拉加载 ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/%E5%88%86%E9%A1%B5-2B9939?style=flat-square" alt="分页" height="18">
+      <img src="https://img.shields.io/badge/%E8%99%9A%E6%8B%9F%E5%88%97%E8%A1%A8-2B9939?style=flat-square" alt="虚拟列表" height="18"><br>
+      低耦合的全平台分页组件，支持下拉刷新、加载更多、虚拟列表和聊天分页等配置。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=392"><img src="assets/screenshots/392.webp" alt="luch-request 预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=392">luch-request 网络请求库 ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/%E7%BD%91%E7%BB%9C%E8%AF%B7%E6%B1%82-2B9939?style=flat-square" alt="网络请求" height="18">
+      <img src="https://img.shields.io/badge/TypeScript-2B9939?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" height="18"><br>
+      基于 Promise 的跨平台、项目级请求库，面向传统 uni-app 的 TypeScript-first 请求库。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=7511"><img src="assets/screenshots/7511-thumb.png" alt="zb-table 预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=7511">zb-table 多功能表格 ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E8%A1%A8%E6%A0%BC-2B9939?style=flat-square" alt="数据表格" height="18">
+      <img src="https://img.shields.io/badge/%E5%9B%BA%E5%AE%9A%E5%88%97-2B9939?style=flat-square" alt="固定列" height="18"><br>
+      支持固定表头和列、加载、排序、多选、编辑与合计的多功能跨端表格组件。<br>
+    </td>
+  </tr>
+</table>
+
+### 页面与交互
+
+页面效果与用户操作
+
+<table>
+  <tr>
+    <td width="112" align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=2389"><img src="assets/screenshots/2389.webp" alt="海报画板预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=2389">海报画板 ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/Canvas-2B9939?style=flat-square&amp;logo=html5&amp;logoColor=white" alt="Canvas" height="18">
+      <img src="https://img.shields.io/badge/%E5%AF%8C%E6%96%87%E6%9C%AC-2B9939?style=flat-square" alt="富文本" height="18"><br>
+      一款 canvas 海报组件，提供更优雅的海报生成方案，有限支持富文本。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=3499"><img src="assets/screenshots/3499.webp" alt="lucky-canvas 预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=3499">lucky-canvas 抽奖插件 ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/%E6%8A%BD%E5%A5%96-2B9939?style=flat-square" alt="抽奖" height="18">
+      <img src="https://img.shields.io/badge/%E6%A6%82%E7%8E%87%E6%8E%A7%E5%88%B6-2B9939?style=flat-square" alt="概率控制" height="18"><br>
+      可配置奖品、文字、图片、颜色与按钮，支持同步或异步抽奖及前后端概率控制。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=4354"><img src="assets/screenshots/4354.webp" alt="lime-signature 预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=4354">手写板-签名签字 ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/%E7%AD%BE%E5%90%8D-2B9939?style=flat-square" alt="签名" height="18">
+      <img src="https://img.shields.io/badge/%E5%9B%BE%E7%89%87%E5%AF%BC%E5%87%BA-2B9939?style=flat-square" alt="图片导出" height="18"><br>
+      支持横屏、背景与笔画配置，并可生成有效内容区域以减小图片尺寸。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=5280"><img src="assets/screenshots/5280.webp" alt="瀑布流布局预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=5280">瀑布流布局-waterfall ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/%E7%80%91%E5%B8%83%E6%B5%81-2B9939?style=flat-square" alt="瀑布流" height="18">
+      <img src="https://img.shields.io/badge/%E6%8F%92%E6%A7%BD-2B9939?style=flat-square" alt="插槽" height="18"><br>
+      采用组件加插槽方案实现的瀑布流布局组件，便于使用和调整内容。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=13025"><img src="assets/screenshots/13025.webp" alt="仿抖音短视频组件预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=13025">仿抖音短视频组件 ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/%E7%9F%AD%E8%A7%86%E9%A2%91-2B9939?style=flat-square" alt="短视频" height="18">
+      <img src="https://img.shields.io/badge/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96-2B9939?style=flat-square" alt="性能优化" height="18"><br>
+      全局仅渲染 3 个 item 节点，支持快速滑动、自动预加载和自定义高度。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=1078"><img src="assets/screenshots/1078.webp" alt="下拉式筛选菜单预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=1078">下拉式筛选菜单 ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/%E7%AD%9B%E9%80%89%E8%8F%9C%E5%8D%95-2B9939?style=flat-square" alt="筛选菜单" height="18">
+      <img src="https://img.shields.io/badge/%E5%95%86%E5%9F%8E-2B9939?style=flat-square" alt="商城" height="18"><br>
+      适用于商城、团购的下拉筛选菜单，最多支持三级子菜单和单选、多选。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=324"><img src="assets/screenshots/324.webp" alt="聊天模板预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=324">聊天模板 ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/%E8%81%8A%E5%A4%A9%20UI-2B9939?style=flat-square" alt="聊天 UI" height="18"> <img src="https://img.shields.io/badge/%E6%B6%88%E6%81%AF-2B9939?style=flat-square" alt="消息" height="18"><br>
+      聊天界面模板，包含文字、语音和红包消息。<br>
+    </td>
+  </tr>
+</table>
+
+### 内容与媒体
+
+富内容、文件与图片处理
+
+<table>
+  <tr>
+    <td width="112" align="center">
+      —
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=23890">图片懒加载、图片缓存 ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/%E5%9B%BE%E7%89%87%E4%BC%98%E5%8C%96-2B9939?style=flat-square" alt="图片优化" height="18">
+      <img src="https://img.shields.io/badge/%E7%BC%93%E5%AD%98-2B9939?style=flat-square" alt="缓存" height="18"><br>
+      基于 uni-app 的 image 组件封装，提供图片懒加载与缓存，加快二次加载并减少 CDN 流量消耗。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=10415"><img src="assets/screenshots/10415.webp" alt="在线 PDF 播放器预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=10415">在线 PDF 播放器预览 ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/PDF-2B9939?style=flat-square" alt="PDF" height="18"> <img src="https://img.shields.io/badge/%E5%B7%A5%E5%85%B7%E6%A0%8F-2B9939?style=flat-square" alt="工具栏" height="18"><br>
+      PDF 播放组件，支持监听页数和自定义工具栏。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=805"><img src="assets/screenshots/805.webp" alt="mp-html 预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=805">mp-html 富文本组件 ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/%E5%AF%8C%E6%96%87%E6%9C%AC-2B9939?style=flat-square" alt="富文本" height="18"><br>
+      高效轻量、功能丰富的富文本组件。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=12939"><img src="assets/screenshots/12939-thumb.png" alt="qrcode 预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=12939">qrcode 二维码生成 ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/%E4%BA%8C%E7%BB%B4%E7%A0%81-2B9939?style=flat-square" alt="二维码" height="18"> <img src="https://img.shields.io/badge/uniapp%20x-2B9939?style=flat-square" alt="uniapp x" height="18"><br>
+      一款全平台通用的二维码生成插件，支持 uniapp 与 uniappx。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=3594"><img src="assets/screenshots/3594-thumb.png" alt="lime-clipper 预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=3594">图片裁剪 ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/%E5%9B%BE%E7%89%87%E8%A3%81%E5%89%AA-2B9939?style=flat-square" alt="图片裁剪" height="18"> <img src="https://img.shields.io/badge/uniapp%20x-2B9939?style=flat-square" alt="uniapp x" height="18"><br>
+      兼容 uniapp 与 uniappx 的图片裁剪插件。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=8941"><img src="assets/screenshots/8941-thumb.png" alt="上传图片视频预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=8941">上传图片、视频 ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/%E4%B8%8A%E4%BC%A0-2B9939?style=flat-square" alt="上传" height="18"> <img src="https://img.shields.io/badge/uniCloud-2B9939?style=flat-square" alt="uniCloud" height="18"><br>
+      支持图片、视频的手动或自动上传、样式定制、uniCloud 上传、预览和删除。<br>
+    </td>
+  </tr>
+</table>
+
+### 样式与体验
+
+加载反馈与视觉效果
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=7339"><img src="assets/screenshots/7339-thumb.gif" alt="zero-loading 预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=7339">zero-loading ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/CSS%20%E5%8A%A8%E7%94%BB-2B9939?style=flat-square" alt="CSS 动画" height="18">
+      <img src="https://img.shields.io/badge/Vue%202%2F3-2B9939?style=flat-square&amp;logo=vuedotjs&amp;logoColor=white" alt="Vue 2/3" height="18"><br>
+      纯 CSS 加载动画，一个标签即可实现全屏 loading 效果，支持 Vue 2 和 Vue 3。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=3685"><img src="assets/screenshots/3685-thumb.png" alt="炫酷样式与动画预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=3685">炫酷的样式、炫酷的动画效果 ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/%E6%A0%B7%E5%BC%8F-2B9939?style=flat-square" alt="样式" height="18"> <img src="https://img.shields.io/badge/%E5%8A%A8%E7%94%BB-2B9939?style=flat-square" alt="动画" height="18"><br>
+      收集多种炫酷样式和动画效果，并持续更新。<br>
+    </td>
+  </tr>
 </table>
 
 ## 项目模板（6）
 
 <table>
-  <tr><td width="112" align="center"><a href="https://ext.dcloud.net.cn/plugin?id=5057"><img src="assets/screenshots/5057.webp" alt="uni-starter 预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=5057">uni-starter</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/%E4%BA%91%E7%AB%AF%E4%B8%80%E4%BD%93-4C6EF5?style=flat-square" alt="云端一体" height="18"> <img src="https://img.shields.io/badge/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%8F%91-4C6EF5?style=flat-square" alt="快速开发" height="18"><br>云端一体应用快速开发的基础项目模板。<br><a href="https://ext.dcloud.net.cn/plugin?id=5057">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=3268"><img src="assets/screenshots/3268.webp" alt="uni-admin 预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=3268">uni-admin 基础框架</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86-4C6EF5?style=flat-square" alt="后台管理" height="18"> <img src="https://img.shields.io/badge/uniCloud-4C6EF5?style=flat-square" alt="uniCloud" height="18"><br>基于 uni-app 与 uniCloud 的后台管理项目模板。<br><a href="https://ext.dcloud.net.cn/plugin?id=3268">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=200"><img src="assets/screenshots/200.webp" alt="mix-mall 预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=200">mix-mall 电商项目模版</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/%E7%94%B5%E5%95%86-4C6EF5?style=flat-square" alt="电商" height="18"><br>电商主要页面模板。<br><a href="https://ext.dcloud.net.cn/plugin?id=200">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=4095"><img src="assets/screenshots/4095.webp" alt="网赚游戏预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=4095">网赚游戏</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/%E6%B8%B8%E6%88%8F-4C6EF5?style=flat-square" alt="游戏" height="18"> <img src="https://img.shields.io/badge/uniCloud-4C6EF5?style=flat-square" alt="uniCloud" height="18"><br>一款基于 uniCloud、uniAD 的合成类网赚游戏。<br><a href="https://ext.dcloud.net.cn/plugin?id=4095">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=8937"><img src="assets/screenshots/8937-thumb.png" alt="登录界面模板库预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=8937">登录界面模板库</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/%E7%99%BB%E5%BD%95%E6%B3%A8%E5%86%8C-4C6EF5?style=flat-square" alt="登录注册" height="18"> <img src="https://img.shields.io/badge/%E5%BC%80%E6%BA%90-4C6EF5?style=flat-square" alt="开源" height="18"><br>数十款移动端登录、注册界面模板，源码公开且可直接使用。<br><a href="https://ext.dcloud.net.cn/plugin?id=8937">查看详情 →</a></td></tr>
-  <tr><td align="center"><a href="https://ext.dcloud.net.cn/plugin?id=5013"><img src="assets/screenshots/5013.jpg" alt="前端铺子预览图" width="96"></a></td><td valign="top"><strong><a href="https://ext.dcloud.net.cn/plugin?id=5013">前端铺子</a></strong><br><small>适用：</small> <img src="https://img.shields.io/badge/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%A8%A1%E6%9D%BF-4C6EF5?style=flat-square" alt="移动端模板" height="18"> <img src="https://img.shields.io/badge/%E5%A4%9A%E5%9C%BA%E6%99%AF-4C6EF5?style=flat-square" alt="多场景" height="18"><br>提供自定义导航、地图轨迹、电子签名、图片水印、在线答题、文档预览、图表和瀑布流等移动端模板与功能。<br><a href="https://ext.dcloud.net.cn/plugin?id=5013">查看详情 →</a></td></tr>
+  <tr>
+    <td width="112" align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=5057"><img src="assets/screenshots/5057.webp" alt="uni-starter 预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=5057">uni-starter ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/%E4%BA%91%E7%AB%AF%E4%B8%80%E4%BD%93-2B9939?style=flat-square" alt="云端一体" height="18"> <img src="https://img.shields.io/badge/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%8F%91-2B9939?style=flat-square" alt="快速开发" height="18"><br>
+      云端一体应用快速开发的基础项目模板。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=3268"><img src="assets/screenshots/3268.webp" alt="uni-admin 预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=3268">uni-admin 基础框架 ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86-2B9939?style=flat-square" alt="后台管理" height="18"> <img src="https://img.shields.io/badge/uniCloud-2B9939?style=flat-square" alt="uniCloud" height="18"><br>
+      基于 uni-app 与 uniCloud 的后台管理项目模板。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=200"><img src="assets/screenshots/200.webp" alt="mix-mall 预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=200">mix-mall 电商项目模版 ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/%E7%94%B5%E5%95%86-2B9939?style=flat-square" alt="电商" height="18"><br>
+      电商主要页面模板。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=4095"><img src="assets/screenshots/4095.webp" alt="网赚游戏预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=4095">网赚游戏 ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/%E6%B8%B8%E6%88%8F-2B9939?style=flat-square" alt="游戏" height="18"> <img src="https://img.shields.io/badge/uniCloud-2B9939?style=flat-square" alt="uniCloud" height="18"><br>
+      一款基于 uniCloud、uniAD 的合成类网赚游戏。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=8937"><img src="assets/screenshots/8937-thumb.png" alt="登录界面模板库预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=8937">登录界面模板库 ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/%E7%99%BB%E5%BD%95%E6%B3%A8%E5%86%8C-2B9939?style=flat-square" alt="登录注册" height="18"> <img src="https://img.shields.io/badge/%E5%BC%80%E6%BA%90-2B9939?style=flat-square" alt="开源" height="18"><br>
+      数十款移动端登录、注册界面模板，源码公开且可直接使用。<br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://ext.dcloud.net.cn/plugin?id=5013"><img src="assets/screenshots/5013.jpg" alt="前端铺子预览图" width="96"></a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://ext.dcloud.net.cn/plugin?id=5013">前端铺子 ↗</a></strong><br>
+      <small>适用：</small> <img src="https://img.shields.io/badge/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%A8%A1%E6%9D%BF-2B9939?style=flat-square" alt="移动端模板" height="18"> <img src="https://img.shields.io/badge/%E5%A4%9A%E5%9C%BA%E6%99%AF-2B9939?style=flat-square" alt="多场景" height="18"><br>
+      提供自定义导航、地图轨迹、电子签名、图片水印、在线答题、文档预览、图表和瀑布流等移动端模板与功能。<br>
+    </td>
+  </tr>
 </table>
 
-## VSCode 插件推荐
+## VSCode 插件推荐（3）
 
 - [uni-app-schemas](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-app-schemas-vscode)：为 `pages.json`、`manifest.json` 等提供语法提示和校验。
 - [uni-app-snippets](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-app-snippets-vscode)：提供 uni-app 基本能力代码片段。
