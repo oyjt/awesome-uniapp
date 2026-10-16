@@ -468,7 +468,7 @@
 
 ## AI 开发工具（1）
 
-- [sketch-to-vue](https://github.com/chenboxun87/sketch-to-vue)：面向 Claude Code 和 Cursor 的 AI Skill，将 Sketch MeaXure / MasterGo 设计导出物转换为 uni-app 组件，提供 rpx 换算、标签映射和图表集成能力，也支持 Vue 2/3、React 输出。采用 [CC BY-NC-ND 4.0 许可](https://github.com/chenboxun87/sketch-to-vue/blob/main/LICENSE)，仅限非商业用途，使用前请查看许可条款。
+- [sketch-to-vue](https://github.com/chenboxun87/sketch-to-vue)：将 Sketch MeaXure / MasterGo 设计稿转为像素级精准的 UniApp SFC 组件（支持 H5 / 微信小程序 / App），自动完成 rpx 换算、lime-echart 图表集成、assets 路径解析。支持 Vue 2/3、React 18 多目标输出。
 
 ## VSCode 插件推荐（3）
 
