@@ -19,6 +19,7 @@
 - [UI 框架（10）](#ui-框架10)
 - [功能组件（21）](#功能组件21)
 - [项目模板（6）](#项目模板6)
+- [AI 开发工具（1）](#ai-开发工具1)
 - [VSCode 插件推荐（3）](#vscode-插件推荐3)
 
 ## 快速选型
@@ -28,6 +29,7 @@
 - [页面效果与用户交互](#页面与交互)
 - [富内容、文件与图片处理](#内容与媒体)
 - [后台管理、电商与业务模板](#项目模板6)
+- [设计稿转 uni-app 代码](#ai-开发工具1)
 
 ## UI 框架（10）
 
@@ -463,6 +465,10 @@
     </td>
   </tr>
 </table>
+
+## AI 开发工具（1）
+
+- [sketch-to-vue](https://github.com/chenboxun87/sketch-to-vue)：面向 Claude Code 和 Cursor 的 AI Skill，将 Sketch MeaXure / MasterGo 设计导出物转换为 uni-app 组件，提供 rpx 换算、标签映射和图表集成能力，也支持 Vue 2/3、React 输出。采用 [CC BY-NC-ND 4.0 许可](https://github.com/chenboxun87/sketch-to-vue/blob/main/LICENSE)，仅限非商业用途，使用前请查看许可条款。
 
 ## VSCode 插件推荐（3）
 
